@@ -12,20 +12,19 @@ This project employs Bayesian modeling and posterior simulation to analyze trend
 2. Install the required Python libraries using pip:
 
 ## Running the Script
-1. Download `BM-HW2.py` from this repository.
+1. Download `Airline-Fatalities-Bayesian-Analysis.py` from this repository.
 2. Open a terminal or command prompt.
-3. Navigate to the directory containing `BM-HW2.py`.
+3. Navigate to the directory containing `Airline-Fatalities-Bayesian-Analysis.py`.
 4. Execute the script with Python:
 
 ### Expected Output
 The script outputs analyses of the airline fatalities dataset, including Bayesian estimates and visualizations of posterior distributions for key variables. These insights help understand the variability and underlying trends in aviation safety data.
 
 ## Dataset
-The included dataset is a dictionary in the script, detailing yearly data on fatal accidents, passenger deaths, and death rates per 100 million passengers. This data serves as the foundation for the Bayesian analysis.
-
+The dataset used in this project details worldwide airline fatalities from 1976 to 1985, focusing on the number of fatal accidents, passenger deaths, and the death rate (passenger deaths per 100 million passenger miles). This comprehensive dataset is sourced from the Statistical Abstract of the United States, providing a reliable basis for our Bayesian analysis.
 ### Modifying the Dataset
 To analyze different data:
-- Modify the `airline_fatalities` dictionary within `BM-HW2.py` to reflect your dataset.
+- Modify the `airline_fatalities` dictionary within `Airline-Fatalities-Bayesian-Analysis.py` to reflect your dataset.
 - Ensure your data includes "Year", "Fatal Accidents", "Passenger Deaths", and "Death Rate (per 100 million passengers)".
 - Rerun the script to analyze the new data with the Bayesian model.
 
