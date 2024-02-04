@@ -32,11 +32,4 @@ To analyze different data:
 ## Data Analysis
 The script utilizes Bayesian modeling to estimate parameters of interest, performing posterior simulations to understand the probability distributions of aviation safety metrics. This method provides a nuanced view of the data, highlighting potential safety trends and areas for improvement.
 
-## Contributing
-Contributions are welcome! If you have suggestions for improving this analysis or have found a bug, please:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a new Pull Request.
 
